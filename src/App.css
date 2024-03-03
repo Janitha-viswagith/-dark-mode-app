@@ -6,6 +6,19 @@
   align-items: center;
   justify-content: center;
  align-items: center;
- background-color: white;
+ background-color: var(--background-color);
 }
 
+.title{
+  color: var(--primary-text-color);
+  margin-bottom: 50px;
+
+}
+
+.box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--foreground-color);
+  color: var(--secondary-text-color);
+  
+}
